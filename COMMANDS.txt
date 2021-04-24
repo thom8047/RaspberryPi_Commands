@@ -1,0 +1,52 @@
+COMMANDS for interactive terminal use
+
+sudo
+	SuperUser DO - SUD; Allows access to super user privilages
+	use case: sudo <>
+
+apt
+	APT is Advamced Package Tool
+	Similar to apt-get (Both the same thing from what I know)
+	use case:
+		sudo apt-get update
+		sudo apt-get upgrade
+		sudo apt-get install <PACKAGE>
+		sudo apt-get remove <PACKAGE>
+		sudo apt-get purge <PACKAGE>
+		sudo apt-get autoremove 
+
+ls
+
+cd
+
+pwd
+
+cp
+
+mv
+
+rm
+
+mkdir
+
+history
+
+df
+
+du
+
+free
+
+uname -a
+
+top
+
+man
+
+info
+
+<COMMAND NAME> -h | <COMMAND NAME> -help
+
+passwd
+
+hotkeys
