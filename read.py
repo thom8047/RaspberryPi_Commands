@@ -7,10 +7,12 @@ def getText():
             holder = line.split("\n")
             print(holder[0] + " | ", end="")
         elif (split[0].count("\t") > 0):
-            print(line)
-        else:
-            if (line != "\n"):
+            if (line.count("use case:") < 1):
                 print(line)
+        else:
+            if (line == "\n"):
+                print(line)
+
 
 if __name__ == "__main__":
     getText()
