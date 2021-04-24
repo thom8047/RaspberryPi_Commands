@@ -1,5 +1,5 @@
 def getText():
-    location = str(input("/home/pi/"))
+    location = "/home/pi/" + str(input("/home/pi/"))
     file = open(location, "r");
     for line in file:
         split = line.split(" ")
@@ -8,7 +8,7 @@ def getText():
         elif (split[0].count("\t") > 0):
             print(line)
         else:
-            print(line + "\n")
+            print(line)
 
 if __name__ == "__main__":
     getText()
