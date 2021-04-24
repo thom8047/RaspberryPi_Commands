@@ -1,5 +1,5 @@
 def getText():
-    location = str(input("/home/pi/"))
+    location = "/home/pi/" + str(input("/home/pi/"))
     file = open(location, "r");
     for line in file:
         split = line.split(" ")
