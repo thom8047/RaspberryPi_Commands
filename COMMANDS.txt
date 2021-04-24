@@ -16,37 +16,90 @@ apt
 		sudo apt-get autoremove 
 
 ls
+	LIST; used to list items in directory, current or otherwise
+	use case:
+		ls
+		ls -l
+		ls -a
+		ls -lh 
+		ls -F 
+		ls -r
+		ls -R
+		ls -ltr
+		ls -lS
+		ls -i
+		ls --version
+		ls --help
 
 cd
+	Directory changer; i.e. Change Directory
+	use case:
+		cd /
+		cd ..
+		cd .
+		cd -
+		cd --help
 
 pwd
+	Print Working Directory
+	use case:
+		pwd
 
 cp
+	Copy command; needs specification as to where the copy file resides
+	use case:
+		cp <FILE NAME> <FILE LOCATION>
 
 mv
+	Move files and directory; Also allows renaming, if moved to the same directory.
+	use case:
+		mv <FILE NAME> <FILE LOCATION>
 
 rm
+	Remove files and directories
+	use case:
+		rmdir <DIR NAME> ; ONLY FOR EMPTY DIR
+		rm -r <FILE | DIR NAME>
 
 mkdir
+	Makes Directory
+	use case: 
+		mkdir <DIR NAME>
 
 history
+	Displays all of your previous commands up to the history limit
+	use case:
+		history
 
 df
+	Display Filesystem
+	use case:
+		df
 
 du
+	Directory Usage; for displaying size paramteres of all decending files
+	use case:
+		du
 
 free
-
-uname -a
-
-top
+	Displays the ammount of free space available on SD card
+	use case:
+		free
 
 man
-
-info
+	Displays a manual page for specific OS
+	use case:
+		man man
+		man intro
 
 <COMMAND NAME> -h | <COMMAND NAME> -help
+	Alternative help command
+		<COMMAND NAME> -h | <COMMAND NAME> -help
 
 passwd
+	Change password using terminal; may not work on raspberry pi
+	use case:
+		passwd <USER>
 
 hotkeys
+	*
