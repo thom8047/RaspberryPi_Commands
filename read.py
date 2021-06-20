@@ -3,7 +3,7 @@ def getText():
     file = open(location, "r");
     line_num = 0
     for line in file:
-        if (line_num > 10):
+        if (line_num > 15):
             user_input = str(input())
             if (user_input):
                 break;
